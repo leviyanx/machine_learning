@@ -40,6 +40,6 @@ for i = 1:num_labels
     p_temp(:,i) = sigmoid(X * theta');
 end
 
-[M, p] = max(p_temp, [], 2); % p(i) is the indexs of max value among all class in training example (i)
+[M, p] = max(p_temp, [], 2); % p(i) is the index of max value among all class in training example (i)
 
 end
