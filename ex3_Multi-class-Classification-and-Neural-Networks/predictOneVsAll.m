@@ -30,13 +30,16 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
+% row in p_temp: values of K classes in (i) training example
+% column in p_temp: values of all training examples in K class
+p_temp = zeros(size(X,1), size(all_theta, 1));
 
+% one time calculate H_theta(x) for one class
+for i = 1:num_labels
+    theta = all_theta(i,:);
+    p_temp(:,i) = sigmoid(X * theta');
+end
 
-
-
-
-
-% =========================================================================
-
+[M, p] = max(p_temp, [], 2); % p(i) is the indexs of max value among all class in training example (i)
 
 end
