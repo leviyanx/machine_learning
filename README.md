@@ -2,28 +2,36 @@ Exercises in [Machine Learning](https://www.coursera.org/learn/machine-learning-
 
 Guide of each exercise  is in **ex*.mlx** file.
 
-## ex1
+## ex1 Linear Regression
 
-Files needed to be completed
+- Warm up exercise
+- Compute cost for one variable
+- Gradient descent for one variable
+- Feature normalization
+- Compute cost for multiple variables
+- Gradient descent for multiple variables
+- Normal equations
 
-- 
+## ex2 Logistic Regression
 
-## ex2
+- Sigmoid function
+- Compute cost for logistic regression
+- Gradient for logistic regression
+- Predict function
+- Compute cost for regularized LR
+- Gradient for regularized LR
 
-Files needed to be completed
+## ex3 Multi-class Classification and Neural Networks
 
-- 
-
-## ex3
-
-Files needed to be completed
-
-- 
+- Regularized logistic regression
+- One-vs-all classifier training
+- One-vs-all classifier prediction
+- Neural network prediction function
 
 ## ex4 Neural Network Learning
 
-Files needed to be completed
-
-- *sigmoidGradient.m - Compute the gradient of the sigmoid function
-- *randInitializeWeights.m - Randomly initialize weights
-- *nnCostFunction.m - Neural network cost function
+- Feedforward and cost function
+- Regularized cost function
+- Sigmoid gradient
+- Neural net gradient function (backpropagation)
+- Regularized gradient
